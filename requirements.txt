@@ -1,0 +1,13 @@
+absl-py
+easydict
+cython
+googledrivedownloader
+jupyter
+lmdb
+matplotlib
+numpy>=1.16.0,<2.0
+Pillow==5.3.0
+seaborn
+scipy
+tensorflow-gpu==1.15.2
+tqdm
