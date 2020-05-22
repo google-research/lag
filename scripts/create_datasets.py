@@ -202,7 +202,7 @@ def download(url, filename):
 def _load_lsun(category):
     data = {}
     for subset in ('train', 'val'):
-        url = 'http://lsun.cs.princeton.edu/htbin/download.cgi?tag=latest&category=%s&set=%s' % (category, subset)
+        url = 'http://dl.yf.io/lsun/scenes/{category}_{subset}_lmdb.zip'.format(**locals())
         with tempfile.NamedTemporaryFile(delete=False) as f:
             download(url, f.name)
             data[subset] = f.name
