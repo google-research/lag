@@ -12,5 +12,5 @@ seaborn
 scipy
 tensorflow-gpu==1.15.2
 tqdm
-lmbd
+
 
